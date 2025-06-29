@@ -1,6 +1,6 @@
-# 🧠 Psychiatric Disorders Analysis – RNA-Seq Replication & Tool Benchmark
+# Psychiatric Disorders Analysis – RNA-Seq Replication & Tool Benchmark
 
-## 📌 Overview
+## Overview
 
 This project is a replication and exploration of the paper:  
 **"Post-mortem molecular profiling of three psychiatric disorders"**  
@@ -10,7 +10,7 @@ Our goals were:
 - Replicate core transcriptomic findings comparing **schizophrenia (SZ)**, **bipolar disorder (BPD)**, **major depressive disorder (MDD)**, and controls
 - Evaluate RNA-Seq tools such as **STAR** and **Kallisto** to determine trade-offs in speed, accuracy, and computational cost
 
-## 🎯 Motivation
+## Motivation
 
 Analyzing psychiatric disease at the molecular level requires large-scale RNA-Seq data and thoughtful tool selection. Different tools yield different alignments, affecting gene expression quantification, differential expression results, and ultimately the biological conclusions.
 
@@ -19,7 +19,7 @@ In this project, we examined:
 - Scenarios where speed, cost-efficiency, or accuracy should be prioritized
 - How improper tool choices can mislead research outcomes
 
-## 📂 Project Structure
+## Project Structure
 ```
 PsychiatricDisordersAnalysis/
 ├── LICENSE
@@ -69,7 +69,7 @@ PsychiatricDisordersAnalysis/
 ```
 
 
-## 🧬 Methods & Data
+## Methods & Data
 
 - **Transcriptomic Data**: Modeled after the post-mortem RNA-Seq data used in the original study
 - **Brain Regions**:
@@ -94,17 +94,17 @@ PsychiatricDisordersAnalysis/
 - GABA-related metabolites aligned with reduced expression of GAD1/GAD2 enzymes
 
 
-## 🛠 Tool Comparison Summary
+## Tool Comparison Summary
 
 | Tool      | Accuracy       | Speed         | Best Use Case                       |
 |-----------|----------------|---------------|-------------------------------------|
-| STAR      | ⭐⭐⭐⭐⭐ High     | 🐢 Slower      | Research prioritizing precision     |
-| Kallisto  | ⭐⭐ Moderate    | 🚀 Very Fast   | Large-scale or exploratory datasets |
+| STAR      | ⭐⭐⭐⭐⭐ High     |  Slower      | Research prioritizing precision     |
+| Kallisto  | ⭐⭐ Moderate    |  Very Fast   | Large-scale or exploratory datasets |
 
 We observed that STAR provides more reliable mapping at a higher cost, while Kallisto is better for fast, exploratory studies.
 
 
-## 📊 Technologies & Skills
+## Technologies & Skills
 
 - RNA-Seq Analysis & Alignment  
 - STAR vs Kallisto benchmarking  
@@ -113,15 +113,19 @@ We observed that STAR provides more reliable mapping at a higher cost, while Kal
 - Python (pandas, seaborn), R  
 - Git & GitHub version control
 
-## 📄 Paper Reference
+##  Paper Reference
 
 **Ramaker et al. (2017)**  
 [Post-mortem molecular profiling of three psychiatric disorders](https://doi.org/10.1186/s13073-017-0458-5)  
 *Genome Medicine, 9, 72 (2017)*
 
-## 👤 Author
+## 👤 Authors
 
 **Luigi Cheng**  
 M.S. Data Science (UCSD, in progress)  
 GitHub: [@iLuigi98](https://github.com/iLuigi98)  
 Portfolio: [luigidata.com](https://luigidata.com)
+
+**Dennis Wu**
+GitHub: [@denncc](https://github.com/denncc)
+
