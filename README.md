@@ -126,6 +126,10 @@ M.S. Data Science (UCSD, in progress)
 GitHub: [@iLuigi98](https://github.com/iLuigi98)  
 Portfolio: [luigidata.com](https://luigidata.com)
 
-**Dennis Wu**
-GitHub: [@denncc](https://github.com/denncc)
+
+
+
+**Dennis Wu**  
+M.S. Computer Science (UCSD)  
+GitHub: [@denncc](https://github.com/denncc) 
 
